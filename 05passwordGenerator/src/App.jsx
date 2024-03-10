@@ -42,7 +42,7 @@ function App() {
   useEffect( () => {passwordGenerator()},[length,numberAllowed,charAllowed,passwordGenerator])
 
   return (
-      <div className='w-screen max-w-md mx-auto shadow-xl rounded-lg px-4 mt-12 text-red-500 bg-gray-900'>
+      <div className='w-screen max-w-md mx-auto shadow-2xl rounded-lg px-4 mt-12 text-red-500 bg-gray-900'>
         <h1 className='text-xl py-5 text-center font-extrabold'>Password Generator</h1>
         <div className='flex shaodow rounded-xl overflow-hidden mb-8 '>
           <input type="text" value={password} 
